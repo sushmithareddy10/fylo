@@ -82,9 +82,9 @@ header .links a{
 }
 
 .introduction .heading h1{
-    max-width: 530px;
-    font-size: 25px;
-    font-weight: 600;
+    max-width: 560px;
+    font-size: 30px;
+    font-weight: 800;
     text-align: center;
     line-height: 40px;
     padding-top: 20px;
@@ -157,6 +157,38 @@ header .links a{
     font-weight: 100;
     font-size: 15px;
   }
+
+  .productive{
+    background: #0e0e0e;
+    padding: 50px 0px;
+    margin-top: -1px;
+  }
+  .productive .heading{
+     padding-left: 50px;
+  }
+
+  .productive .heading h1{
+     color: white;
+     max-width: 400px;
+     font-weight: 600;
+     margin-bottom: 30px;
+  }
+
+  .productive .heading p{
+    color: white;
+    max-width: 500px;
+    margin-bottom: 20px;
+ }
+ .productive .heading a{
+     margin-top: 30px;
+     color: #00FFFF;
+     text-decoration: none;
+     border-bottom: solid 1px #00FFFF;
+
+ }
+ .productive .heading a i{
+    margin-left: 10px;
+}
 
 
 
