@@ -23,11 +23,11 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: ;
+    font-family: 'Montserrat', sans-serif;
 }
 
 p,a{
-    font-family: ;
+font-family: 'Open Sans', sans-serif;
 }
 
 a{
@@ -36,6 +36,10 @@ a{
 
 .fix-center{
     max-width: 1200px;
+    margin: 0 auto;
+}
+.fit-center{
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -79,7 +83,8 @@ header .links a{
 
 .introduction .heading h1{
     max-width: 530px;
-    font-size: 30px;
+    font-size: 25px;
+    font-weight: 600;
     text-align: center;
     line-height: 40px;
     padding-top: 20px;
@@ -88,7 +93,7 @@ header .links a{
 .introduction .heading p {
     max-width: 403px;
     text-align: center;
-    font-size: 14px;
+    font-size: 15px;
     margin: 0 auto;
     padding: 30px 0px;
 }
@@ -99,15 +104,63 @@ header .links a{
     background-color: #00CED1;
     border-radius: 20px;
     margin: 0 auto;
+    text-align: center;
 
+}
+.introduction .button button{
+    background-color: #00CED1;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 10px;
+    margin-top: 8px;
 }
 
 .introduction .button span{
    padding-left: 80px;
-   padding-top: 40px;
    color: white;
    font-size: 20px;
 }
+
+.properties{
+    background: #0e0e0e;
+    padding: 100px 0px;
+    margin-top: -1px;
+}
+
+.properties .prop-items{
+    max-width: 385px;
+    display: inline-block;
+    margin: 30px 90px;
+}
+.properties .prop-items .image{
+    text-align: center;
+}
+
+.properties .prop-items img{
+     max-width: 150px;
+     padding: 0px 20px;
+     margin:0 auto;
+     padding-bottom: 30px;
+     text-align: center;
+}
+.properties .prop-items h2{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.properties .prop-items p{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    font-size: 15px;
+  }
+
+
+
+
 
 
 
