@@ -37,6 +37,11 @@
     .productive .heading a {
         font-size: 22px;
     }
+
+    .access-card .search-buttons div{
+        display: block;
+    }
+    
    
     
 }

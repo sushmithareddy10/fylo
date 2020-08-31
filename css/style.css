@@ -49,7 +49,7 @@ img{
 }
 
 header{
-    background: #2a3437;
+    background: #181e2a;
     overflow: auto;
     padding: 50px 0px;
 }
@@ -66,7 +66,7 @@ header .links a{
 }
 
 .introduction{
-    background:  #2a3437;
+    background:  #181e2a;
     padding: 20px 0px;
     margin-top: -1px;
 }
@@ -123,7 +123,7 @@ header .links a{
 }
 
 .properties{
-    background: #2a3437;
+    background: #181e2a;
     padding: 100px 0px;
     margin-top: -1px;
 }
@@ -138,7 +138,7 @@ header .links a{
 }
 
 .properties .prop-items img{
-     max-width: 150px;
+     max-width: 120px;
      padding: 0px 20px;
      margin:0 auto;
      padding-bottom: 30px;
@@ -159,7 +159,7 @@ header .links a{
   }
 
   .productive{
-    background:  #2a3437;
+    background:  #181e2a;
     padding: 50px 0px;
     margin-top: -1px;
   }
@@ -189,6 +189,55 @@ header .links a{
  }
  .productive .heading a i{
     margin-left: 10px;
+}
+
+.access-card{
+    background-color: #181e2a;
+    padding: 100px 0px;
+}
+.access-card .fix-center{
+    background-color: #21293c;
+    max-width: 900px;
+    padding: 50px 0px;
+}
+.access-card .heading h2{
+    color: white;
+    text-align: center;
+   font-weight: 600;
+
+}
+.access-card .heading p{
+    color: white;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.access-card .search-buttons div{
+    padding-top: 50px;
+    display: inline-block;
+}
+
+.access-card .search-buttons .search input{
+    width: 480px;
+    height: 50px;
+    border-radius: 22px;
+    margin: 0px 60px;
+    border: none; 
+    outline: none;
+   padding-left: 46px;
+}
+
+
+.access-card .search-buttons .button button{
+    width: 200px;
+    height: 40px;
+    background-color:#00CED1 ;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 22px;
 }
 
 
