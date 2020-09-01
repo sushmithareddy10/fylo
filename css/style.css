@@ -158,6 +158,59 @@ header .links a{
     font-size: 15px;
   }
 
+.corousel{
+    background-color:  #181e2a;
+    margin-top: -1px;
+    padding: 100px 0px;
+}
+.corousel .quote{
+    max-width: 60px;
+}
+
+
+.corousel .card{
+    background-color: #21293c;
+    max-width: 350px;
+    color: white;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 25px 30px;
+    margin: 0px 15px;
+    margin-top: -8px;
+}
+.corousel .card .profile div{
+    display: inline-block;
+}
+.corousel .card>p{
+    font-size: 15px;
+    
+}
+.corousel .card .about{
+    padding: 8px 10px;
+}
+.corousel .card img{
+    max-width: 25px;
+    border-radius: 20px;
+    
+}
+
+.corousel .card .profile .about h3{
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.corousel .card .profile .about p{
+    font-size: 8px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
   .productive{
     background:  #181e2a;
     padding: 50px 0px;
@@ -194,11 +247,13 @@ header .links a{
 .access-card{
     background-color: #181e2a;
     padding: 100px 0px;
+    margin-top: -1px;
 }
-.access-card .fix-center{
+.access-card .card{
     background-color: #21293c;
     max-width: 900px;
     padding: 50px 0px;
+    margin: 0 auto;
 }
 .access-card .heading h2{
     color: white;
@@ -213,32 +268,120 @@ header .links a{
     margin: 0 auto;
     padding-top: 20px;
 }
-
+.access-card .card{
+    margin-bottom: -216px;
+}
 .access-card .search-buttons div{
     padding-top: 50px;
     display: inline-block;
 }
+.access-card .card .search-buttons{
+    margin-top: 30px;
+}
+.access-card .card .search-buttons .search{
+    max-width: 400px;
+    width: 100%;
+    background-color:white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin-left: 80px;
 
-.access-card .search-buttons .search input{
-    width: 480px;
-    height: 50px;
-    border-radius: 22px;
-    margin: 0px 60px;
-    border: none; 
-    outline: none;
-   padding-left: 46px;
+}
+.access-card .card .search-buttons .search input{
+     outline: none;
+    border:  none;
+    margin: 0 auto;
 }
 
-
-.access-card .search-buttons .button button{
-    width: 200px;
-    height: 40px;
+.access-card .card .search-buttons .button{
+    max-width: 170px;
+    width: 100%;
+    background-color:#00CED1 ;
+    padding: 5px 2px;
+    border-radius: 13px;
+    margin: 0px 30px;
+} 
+.access-card .card .search-buttons .button button{
     background-color:#00CED1 ;
     color: white;
     border: none;
     outline: none;
-    border-radius: 22px;
+    text-align: center;
+    padding: 0px 13px;
 }
+
+
+
+
+footer{
+    background-color:  #0c1524;
+    margin-top: -1px;
+}
+
+footer .fix-center{
+    padding: 100px 0px;
+}
+
+footer .image img{
+    max-width: 116px;
+}
+footer .about div{
+    display: inline-block;
+}
+footer .about .location{
+    max-width: 10px;
+    margin-top: 0px;
+}
+footer .about p{
+    color: white;
+    font-size: 12px;
+    padding-top: 17px;
+    max-width: 300px;
+    
+}
+footer .telephone div{
+    display: inline-block;
+}
+footer .telephone img{
+    max-width: 15x;
+}
+
+footer .telephone{
+    color: white;
+}
+footer .email div{
+    display: inline-block;
+}
+footer .email img{
+    max-width: 15px;
+}
+footer .email{
+    color: white;
+}
+
+footer ul li{
+    list-style: none;
+    color: white;
+}
+
+footer a{
+    color: white;
+    padding: 0px 10px;
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 5px 10px;
+
+}
+footer .col1, .col2,.col2,.col3,.col4,.col5{
+    padding-top: 80px;
+
+}
+
+footer .col2,.col2,.col3,.col4,.col5{
+    padding-top: 130px;
+}
+
+
 
 
 

@@ -1,4 +1,4 @@
-@media screen and (max-width:1200px){
+@media screen and (max-width:992px){
     .fix-center{
         width:90%;
     }
@@ -21,6 +21,14 @@
     .properties .prop-items p{
         font-size: 20px;
       }
+      .corousel .quote{
+          margin-left: 300px;
+      }
+      .corousel .card{
+         margin: 0px auto;
+         margin-bottom: 20px;
+         display: block;
+    }
 
       .productive .heading{
         padding-left: 0px;
@@ -40,7 +48,73 @@
 
     .access-card .search-buttons div{
         display: block;
+
     }
+
+    .access-card .card .search-buttons .search{
+        max-width: 400px;
+        padding: 15px 15px;
+        border-radius: 26px;
+        margin: 20px auto;
+    
+    }
+
+    .access-card .card .search-buttons .button{
+        max-width: 400px;
+        padding:15px 20px;
+        border-radius: 26px;
+        margin: 0 auto;
+    } 
+
+    .access-card .card .search-buttons .button button{
+        padding: 0px 50px;
+    }
+    footer .image img{
+    max-width: 300px;
+    }
+
+    footer .about img{
+        max-width: 20px;
+    }
+    footer .about p{
+        font-size: 22px;
+        max-width: 800px;
+        
+    }
+
+    footer .telephone img{
+        max-width: 20x;
+    }
+    
+    footer .telephone p{
+       font-size: 22px;
+    }
+    footer .col5 a{
+       margin: 0 auto;
+    
+    }
+    footer .email img{
+        max-width: 15px;
+    }
+    footer .email p{
+        font-size: 22px;
+    }
+
+    footer ul li{
+        font-size: 22px;
+    }
+
+    footer a{
+        text-align: center;
+    }
+    footer .col1, .col2,.col2,.col3,.col4,.col5{
+        padding-top: 100px;
+    
+    }
+    footer .col2,.col2,.col3,.col4,.col5{
+        padding-top: 50px;
+    }
+    
     
    
     
