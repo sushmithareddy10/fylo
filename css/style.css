@@ -126,8 +126,13 @@ header .links a{
     background: #181e2a;
     padding: 100px 0px;
     margin-top: -1px;
+    position: relative;
+    overflow: hidden;
 }
-
+.properties> img{
+    position: absolute;
+    top: -300px;
+}
 .properties .prop-items{
     max-width: 385px;
     display: inline-block;
