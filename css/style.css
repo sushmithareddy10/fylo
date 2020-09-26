@@ -281,29 +281,28 @@ header .links a{
 .access-card form div{
     display: inline-block;
 }
-.access-card form .search input{
-    padding: 8px 0px;
+.access-card form .search{
+    max-width: 600px;;
+}
+.access-card form .search input[type='email']{
     width: 400px;
+    padding: 11px 20px;
     border-radius: 25px;
-    text-align: left;
-    padding-left: 20px;
-    margin-left: 134px;
-    margin-right: 35px;
+    margin-left: 86px;
+    margin-right: 25px;
     border: none;
+}
+.access-card form .button{
+    max-width: 200px;
 }
 .access-card form .button input{
-    padding: 8px 0px;
-    border-radius: 25px;
     width: 188px;
-    color: white;
-    background: linear-gradient(#4ec4d5,#3fb0d1);
+    padding: 9px 0px;
+    border-radius: 25px;
     border: none;
+    color: white;
+    background: linear-gradient(#5ac1d1,#3fadce);
 }
-
-
-
-
-
 
 
 footer{
