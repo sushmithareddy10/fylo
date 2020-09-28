@@ -48,8 +48,8 @@
         display: block;
 
     }
-    .access-card form .search input{
-        max-width: 300px;
+    .access-card form .search{
+        margin-bottom: 20px;
     }
     
     footer .image img{
