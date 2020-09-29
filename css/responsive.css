@@ -3,7 +3,7 @@
         width:90%;
     }
     .introduction .heading p {
-        font-size: 18px;
+        font-size: 15px;
     }
     .properties {
         padding: 82px 0px;
@@ -20,10 +20,9 @@
         text-align: center;
         font-weight: 600;
       }
-      corousel {
-        padding: 77px 0px;
+      .corousel {
+        padding: 73px 0px;
     }
-      
       .corousel .card{
          margin-bottom: 20px;
          display: block;
@@ -37,7 +36,7 @@
         max-width: 700px;
      }
      .productive .heading p {
-        font-size: 20px;
+        font-size: 15px;
         max-width: 667px;
     }
 
@@ -45,27 +44,37 @@
         font-size: 22px;
     }
     .access-card {
-        padding: 62px 0px;
+        padding: 61px 0px;
+    }
+
+    .access-card .card {
+        padding: 51px 16px;
     }
     .access-card form div{
         display: block;
 
     }
+    .access-card form {
+        padding: 0px 16px;
+    }
     .access-card form .search{
         margin-bottom: 20px;
     }
+    .access-card form .search input[type='email'] {
+        max-width: 100%;
+    }
+    .access-card form .button input[type='submit'] {
+        max-width: 100%;
+    }
     
     footer .image img{
-        max-width: 300px;
+        max-width: 200px;
 
-    }
-
-    footer .about img{
-        max-width: 20px;
     }
     footer .about p{
         font-size: 22px;
-        max-width: 800px;
+        max-width: 530px;
+
         
     }
 
@@ -73,12 +82,10 @@
        font-size: 22px;
     }
     footer .col5 a{
-       margin: 0 auto;
+       margin: 0 6px;
+       
     
     }
-    /* footer .email img{
-        max-width: 15px;
-    } */
     footer .email p{
         font-size: 22px;
     }
@@ -92,6 +99,7 @@
     }
     footer .col1, .col2,.col2,.col3,.col4,.col5{
         padding-top: 100px;
+        text-align: center;
     
     }
     footer .col2,.col2,.col3,.col4,.col5{
@@ -101,4 +109,23 @@
     
    
     
+}
+
+@media screen and (max-width:600px){
+    .introduction .heading h1 {
+        font-size: 27px;
+    }
+    .productive .heading h1 {
+        font-size: 27px;
+    }
+    .productive {
+        text-align: center;
+    }
+    .properties {
+        padding: 20px 0px;
+    }
+    .properties .prop-items h2 {
+        font-size: 27px;
+    }
+
 }
