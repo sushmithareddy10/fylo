@@ -68,32 +68,30 @@
     }
     
     footer .image img{
-        max-width: 200px;
+        max-width: 170px;
 
     }
     footer .about p{
         font-size: 22px;
-        max-width: 530px;
-
+        max-width: 530px
         
     }
 
     footer .telephone p{
-       font-size: 22px;
+       font-size: 18px;
+    }
+    footer .email p {
+        font-size: 18px;
+    }
+    footer ul li {
+        font-size: 19px;
     }
     footer .col5 a{
        margin: 0 6px;
-       
-    
     }
     footer .email p{
         font-size: 22px;
     }
-
-    footer ul li{
-        font-size: 22px;
-    }
-
     footer a{
         text-align: center;
     }
@@ -126,6 +124,9 @@
     }
     .properties .prop-items h2 {
         font-size: 27px;
+    }
+    footer .about p {
+        font-size: 18px;
     }
 
 }
