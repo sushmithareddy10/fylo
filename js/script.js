@@ -11,7 +11,7 @@ $('.slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true
+        dots: true,
       }
     },
     {
@@ -19,7 +19,7 @@ $('.slider').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        arrows: false
+        arrows: false,
       }
     },
     {
@@ -27,7 +27,8 @@ $('.slider').slick({
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
-        arrows: false
+        arrows: false,
+        margin: 20
       }
     },
     {
@@ -35,7 +36,8 @@ $('.slider').slick({
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
-        arrows: false
+        arrows: false,
+        margin: 20
       }
     }
   ]
