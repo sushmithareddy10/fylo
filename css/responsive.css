@@ -5,7 +5,9 @@
     .introduction .heading p {
         font-size: 18px;
     }
-    
+    .properties {
+        padding: 82px 0px;
+    }
     .properties .prop-items{
         max-width: 420px;
         margin: 0px auto;
@@ -18,10 +20,11 @@
         text-align: center;
         font-weight: 600;
       }
-    
+      corousel {
+        padding: 77px 0px;
+    }
       
       .corousel .card{
-         margin: 0px auto;
          margin-bottom: 20px;
          display: block;
     }
@@ -41,7 +44,9 @@
     .productive .heading a {
         font-size: 22px;
     }
-
+    .access-card {
+        padding: 62px 0px;
+    }
     .access-card form div{
         display: block;
 

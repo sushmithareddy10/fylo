@@ -74,7 +74,9 @@ header .links a{
 .introduction .bg-image img{
     position: absolute;
     bottom: -17px;
-    z-index: -1;
+}
+.introduction .relative-element{
+    position: relative;
 }
 .introduction .intro-logo{
     max-width: 500px;
