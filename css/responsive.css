@@ -102,13 +102,47 @@
     }
     footer .col2,.col2,.col3,.col4,.col5{
         padding-top: 50px;
-    }
-    
-    
-   
-    
+    }  
 }
+@media screen and (max-width:772px){
+    header .links a{
+        display: block;
+        padding: 5px 31px;
+    }
 
+    header .links{
+        position: relative;
+        top: 45px;
+        padding: 0;
+        background: #1c2230;
+    }
+     .hamburger{
+         float: right;
+     }
+    .hamburger span{
+        display: block;
+    }
+    .hamburger .b1,.b2,.b3{
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin: 5px 0px;
+        border-radius: 12px;
+    }
+
+    .close-menu{
+        transform: translateY(-256px);
+    }
+    .top-span{
+        transform: rotate(45deg) translate(8px,6px);
+    }
+    .middle-span{
+       opacity: 0;
+    }
+    .bottom-span{
+       transform: rotate(-45deg) translate(4px, -3px);
+    }
+}
 @media screen and (max-width:600px){
     .introduction .heading h1 {
         font-size: 27px;

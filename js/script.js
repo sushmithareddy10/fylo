@@ -44,3 +44,18 @@ $('.slider').slick({
     }
   ]
 });
+
+var menuIcon=document.querySelector('.hamburger');
+var links=document.querySelector('.links');
+menuIcon.addEventListener('click', CollapseLinks);
+function CollapseLinks(){
+   links.classList.toggle('close-menu');
+   menuIcon.addEventListener('click',crossMark);
+
+}
+
+function crossMark(){
+  document.querySelector('.b1').classList.toggle('top-span');
+  document.querySelector('.b2').classList.toggle('middle-span');
+  document.querySelector('.b3').classList.toggle('bottom-span');
+}

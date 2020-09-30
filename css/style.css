@@ -58,10 +58,11 @@ header .logo{
     max-width: 100px;
     float: left;
 }
-
+header .links{
+    float: right;
+}
 header .links a{
     color: white;
-    float: right;
     padding: 0px 20px;
 }
 
