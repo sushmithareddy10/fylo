@@ -134,13 +134,13 @@
         transform: translateY(-256px);
     }
     .top-span{
-        transform: rotate(45deg) translate(8px,6px);
+        transform: rotate(45deg) translate(6px,6px);
     }
     .middle-span{
        opacity: 0;
     }
     .bottom-span{
-       transform: rotate(-45deg) translate(4px, -3px);
+       transform: rotate(-45deg) translate(5px, -4px);
     }
 }
 @media screen and (max-width:600px){
