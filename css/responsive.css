@@ -106,13 +106,12 @@
 }
 @media screen and (max-width:992px){
     header .links{
-        float: none;
         text-align: right;
-        transform: translateX(100%);
+        transform: translateX(160px);
         transition: all 0.4s ease;
         position: relative;
         top: 45px;
-        margin: 20px 0px;
+        margin: 8px -32px;
     }
     header .links a{
         display: block;
