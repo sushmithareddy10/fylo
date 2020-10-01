@@ -104,44 +104,48 @@
         padding-top: 50px;
     }  
 }
-@media screen and (max-width:772px){
-    header .links a{
-        display: block;
-        padding: 5px 31px;
-    }
-
+@media screen and (max-width:992px){
     header .links{
+        float: none;
+        text-align: right;
+        transform: translateX(100%);
+        transition: all 0.4s ease;
         position: relative;
         top: 45px;
-        padding: 0;
-        background: #1c2230;
+        margin: 20px 0px;
     }
-     .hamburger{
-         float: right;
-     }
+    header .links a{
+        display: block;
+        margin: 20px 0px;
+    }
+    .hamburger{
+        float: right;
+    }
     .hamburger span{
         display: block;
-    }
-    .hamburger .b1,.b2,.b3{
-        width: 30px;
+        width: 35px;
         height: 3px;
         background-color: #fff;
+        border-radius: 5px;
         margin: 5px 0px;
-        border-radius: 12px;
+        transition: 00.4s;
     }
 
-    .close-menu{
-        transform: translateY(-256px);
+    .toggle-links{
+        transform: translateX(0)
     }
-    .top-span{
-        transform: rotate(45deg) translate(6px,6px);
+    .toggle-menu .b1{
+        -webkit-transform:rotate(-45deg) translate(-9px,7px); ;
+         transform: rotate(-45deg) translate(-9px,7px);
     }
-    .middle-span{
-       opacity: 0;
+    .toggle-menu .b2{
+        opacity: 0;
     }
-    .bottom-span{
-       transform: rotate(-45deg) translate(5px, -4px);
+    .toggle-menu .b3{
+        -webkit-transform:rotate(45deg) translate(-4px,-2px);
+        transform: rotate(45deg) translate(-4px,-2px);
     }
+
 }
 @media screen and (max-width:600px){
     .introduction .heading h1 {
