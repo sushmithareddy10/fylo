@@ -45,8 +45,7 @@ $('.slider').slick({
   ]
 });
 
-
 function menuIcon(){
-  document.getElementById('links').classList.toggle('toggle-links');
+  document.getElementById('head').classList.toggle('toggle-links');
   document.getElementById('hamburger').classList.toggle('toggle-menu');
 }

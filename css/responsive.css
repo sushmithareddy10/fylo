@@ -130,9 +130,8 @@
         margin: 5px 0px;
         transition: 00.4s;
     }
-
-    .toggle-links{
-        transform: translateX(0)
+    .toggle-links .links{
+        transform: translateX(0);
     }
     .toggle-menu .b1{
         -webkit-transform:rotate(-45deg) translate(-9px,7px); ;
